@@ -1,0 +1,7 @@
+package br.com.wesley.teste3wings.repository;
+
+import br.com.wesley.teste3wings.model.Category;
+import org.springframework.data.jpa.repository.JpaRepository;
+
+public interface CategoryRepository extends JpaRepository<Category, Long> {
+}
